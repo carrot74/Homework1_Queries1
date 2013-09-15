@@ -1,3 +1,7 @@
+--Richard Liao
+--9/15/13
+--Homework 1. Queries 1
+
 --Question 1
 SELECT 
   customers.cid, 
@@ -8,12 +12,13 @@ FROM
   public.customers
 
 --Question 2
-SELECT 
+SELECT --What fields needed in the answer
   agents.name, 
   agents.city
-FROM 
+FROM --what tables data is pulled from
   public.agents
-WHERE 
+WHERE --Conditions for the data pulled 
+
   agents.name = 'Smith';
 
 --Question 3
